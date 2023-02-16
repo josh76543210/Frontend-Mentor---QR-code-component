@@ -10,7 +10,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -33,34 +32,19 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-- Adding an html entity for better spacing in the attribution.
-
-```html
-Challenge by&nbsp;
-<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
-  Frontend Mentor </a
->. Coded by&nbsp;
-<a href="https://www.frontendmentor.io/profile/josh76543210" target="_blank"
-  >josh76543210</a
->.
-```
-
 - Using CSS and Flexbox to center elements horizontally and vertically.
 - Using CSS and calc() to account for attribution.
+- Using min-height to account for small screens.
 
 ```css
 .container {
-  height: calc(100vh - 50px);
+  min-height: calc(100vh - 50px);
 
   display: flex;
   align-items: center;
   justify-content: center;
 }
 ```
-
-### Useful resources
-
-- [w3schools - HTML Entities](https://www.w3schools.com/html/html_entities.asp) - This helped me find the html entity for a non-breaking space.
 
 ## Author
 
